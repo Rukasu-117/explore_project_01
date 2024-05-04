@@ -1,0 +1,102 @@
+/* Hexadecimal de Cores
+  No hexadecimal ele é separado por grupos de 2
+  Red Green Blue e ele vai de 0 ao F
+*/
+
+:root{
+  /* Transformando 1px para 1rem
+    Transforma todo tamanho de font em 10px facilitando
+    a conversão para o rem 
+    */
+    font-size: 10px;
+}
+  
+body{
+  
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  
+}
+
+#hero img{
+  margin-bottom: 7.2rem;
+}
+
+#hero{
+
+  /* Width
+    Largura da div
+  */
+  width: 59.2rem;
+  /* Margin
+  2 valores o primeiro ele interpreta para o top e bottom e o segundo para lateral
+  3 valores ele interpreta Primeiro top segunda lateral e terceira bottom 
+  */
+  margin: 0 auto 7.2rem;
+}
+
+h1{
+
+  font-family: "Inter", sans-serif;/*Tipo de Fonte*/
+  font-size: 4.9rem;/*Tamanho da Fonte*/
+  line-height: 5.6rem;/*Tamanho da Linha*/
+  font-weight: normal;/*Peso da Fonte*/
+
+  margin-bottom: 3.2rem;
+
+}
+
+h1 span{
+  
+  font-weight: bold;/*Mesmo efeito do Strong*/ 
+}
+
+span{
+
+  color: #FF9900;
+
+}
+
+p{
+
+  color: #7D7987;
+
+}
+#footer a{
+  color: #FF9900;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+/*Seletor a + a
+ para pegar o a anterior a ele tenha um a
+*/
+#footer a + a{
+  margin-left: 2.8rem;
+}
+
+.line{
+  
+  width: 56.8rem;
+  height: 0rem;
+
+  margin: 0 auto 0.8rem;
+
+  border: 0.1rem solid #ECEFF2 ;
+}
+
+#balls{
+
+  /*Propriedade Position
+    Fixed vai criar uma nova camada para posicionar o elemento dentro da pagina
+  */
+  position: fixed;
+  /*Botton e Right
+    Dessa forma eu determino que ele vai estar na posição para baixo 0 e para direita 0
+  */
+  bottom: 0rem;
+  right: 0rem;
+}
